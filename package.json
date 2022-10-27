@@ -1,0 +1,32 @@
+{
+    "name": "tm-vsc-themes",
+    "displayName": "TM Themes",
+    "description": "TM Themes",
+    "version": "1.0.0",
+    "icon": "images/tm_logo_128x128.png",
+    "publisher": "tiberiu-matei",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tiberiu-matei/vsc-themes.git"
+    },
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "TM Day Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/TM Day Theme-color-theme.json"
+            },
+            {
+                "label": "TM Night Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/TM Night Theme-color-theme.json"
+            }
+        ]
+    }
+}
